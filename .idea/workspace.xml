@@ -1,15 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3e84d86-c90e-4e5e-a606-456d5b85ec23" name="Default Changelist" comment="" />
+    <list default="true" id="b3e84d86-c90e-4e5e-a606-456d5b85ec23" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/public/mix-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/resources/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/tailwind.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/webpack.mix.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -23,11 +44,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.16.1" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.19.6" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docker-compose.yaml" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -54,7 +76,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606054820428</updated>
-      <workItem from="1606054821487" duration="7528000" />
+      <workItem from="1606054821487" duration="13295000" />
+      <workItem from="1606075171710" duration="282000" />
+      <workItem from="1606075506294" duration="3497000" />
     </task>
     <servers />
   </component>
@@ -62,21 +86,49 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1823" height="279" key="GridCell.Tab.0.bottom" timestamp="1606062830594">
+    <state x="1947" y="225" width="800" height="677" key="#Docker" timestamp="1606079918716">
+      <screen x="0" y="27" width="3286" height="1053" />
+    </state>
+    <state x="1947" y="225" width="800" height="677" key="#Docker/0.27.3286.1053@0.27.3286.1053" timestamp="1606079918716" />
+    <state x="2146" y="450" width="402" height="204" key="#Push_Image" timestamp="1606080301987">
+      <screen x="0" y="27" width="3286" height="1053" />
+    </state>
+    <state x="2146" y="450" width="402" height="204" key="#Push_Image/0.27.3286.1053@0.27.3286.1053" timestamp="1606080301987" />
+    <state x="1810" y="210" width="1084" height="732" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606080279452">
+      <screen x="0" y="27" width="3286" height="1053" />
+    </state>
+    <state x="1810" y="210" width="1084" height="732" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.3286.1053@0.27.3286.1053" timestamp="1606080279452" />
+    <state x="719" y="302" width="524" height="500" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606075643566">
       <screen x="53" y="27" width="1867" height="1053" />
     </state>
-    <state width="1823" height="279" key="GridCell.Tab.0.bottom/53.27.1867.1053@53.27.1867.1053" timestamp="1606062830594" />
-    <state width="1823" height="279" key="GridCell.Tab.0.center" timestamp="1606062830593">
+    <state x="719" y="302" width="524" height="500" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/53.27.1867.1053@53.27.1867.1053" timestamp="1606075643566" />
+    <state x="2193" y="464" width="307" height="224" key="DockerComposeFileDialog" timestamp="1606079897793">
+      <screen x="0" y="27" width="3286" height="1053" />
+    </state>
+    <state x="2193" y="464" width="307" height="224" key="DockerComposeFileDialog/0.27.3286.1053@0.27.3286.1053" timestamp="1606079897793" />
+    <state x="2130" y="334" width="424" height="484" key="FileChooserDialogImpl" timestamp="1606079895109">
+      <screen x="0" y="27" width="3286" height="1053" />
+    </state>
+    <state x="2130" y="334" width="424" height="484" key="FileChooserDialogImpl/0.27.3286.1053@0.27.3286.1053" timestamp="1606079895109" />
+    <state width="1823" height="279" key="GridCell.Tab.0.bottom" timestamp="1606075106908">
       <screen x="53" y="27" width="1867" height="1053" />
     </state>
-    <state width="1823" height="279" key="GridCell.Tab.0.center/53.27.1867.1053@53.27.1867.1053" timestamp="1606062830593" />
-    <state width="1823" height="279" key="GridCell.Tab.0.left" timestamp="1606062830593">
+    <state width="1823" height="279" key="GridCell.Tab.0.bottom/53.27.1867.1053@53.27.1867.1053" timestamp="1606075106908" />
+    <state width="1823" height="279" key="GridCell.Tab.0.center" timestamp="1606075106906">
       <screen x="53" y="27" width="1867" height="1053" />
     </state>
-    <state width="1823" height="279" key="GridCell.Tab.0.left/53.27.1867.1053@53.27.1867.1053" timestamp="1606062830593" />
-    <state width="1823" height="279" key="GridCell.Tab.0.right" timestamp="1606062830594">
+    <state width="1823" height="279" key="GridCell.Tab.0.center/53.27.1867.1053@53.27.1867.1053" timestamp="1606075106906" />
+    <state width="1823" height="279" key="GridCell.Tab.0.left" timestamp="1606075106906">
       <screen x="53" y="27" width="1867" height="1053" />
     </state>
-    <state width="1823" height="279" key="GridCell.Tab.0.right/53.27.1867.1053@53.27.1867.1053" timestamp="1606062830594" />
+    <state width="1823" height="279" key="GridCell.Tab.0.left/53.27.1867.1053@53.27.1867.1053" timestamp="1606075106906" />
+    <state width="1823" height="279" key="GridCell.Tab.0.right" timestamp="1606075106907">
+      <screen x="53" y="27" width="1867" height="1053" />
+    </state>
+    <state width="1823" height="279" key="GridCell.Tab.0.right/53.27.1867.1053@53.27.1867.1053" timestamp="1606075106907" />
+    <state x="711" y="407" width="540" height="290" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1606070390908">
+      <screen x="53" y="27" width="1867" height="1053" />
+    </state>
+    <state x="711" y="407" width="540" height="290" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/53.27.1867.1053@53.27.1867.1053" timestamp="1606070390908" />
   </component>
 </project>

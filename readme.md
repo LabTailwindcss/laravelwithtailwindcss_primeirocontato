@@ -14,6 +14,7 @@ Criar um layout no blade.php usando o tailwindcss
  * phpmyadmin:latest
  * Mysql 8.0
  * [Node 14 LTS](https://github.com/nodesource/distributions#debmanual)
+ * [TailwindCSS](https://github.com/tailwindlabs/tailwindcss-setup-examples/tree/master/examples/laravel-postcss-only)
 
 <p>A versão <strong>alpine</strong> por ela mais leve em questão de tamanho de arquivo. Contudo, caso queria usar
 a versão mais completa é só tirar o <strong>alpine</strong>. Caso queira atualizar para versão mais recente, apenas acompanha no site

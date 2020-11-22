@@ -3,7 +3,8 @@
 Criar um layout no blade.php usando o tailwindcss
 
 # Material de Apoio
-[LINK DA AULA](https://www.youtube.com/watch?v=oVRWQJE5a1c&t=2583s)
+[LINK DA AULA](https://www.youtube.com/watch?v=3cBhGXY5PlM)
+
 
 # Sobre o código
  * Laravel 8

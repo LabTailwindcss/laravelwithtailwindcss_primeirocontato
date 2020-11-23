@@ -3,15 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="b3e84d86-c90e-4e5e-a606-456d5b85ec23" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/mix-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/resources/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/tailwind.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/resources/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/resources/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/resources/css/tailwind.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +37,9 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1keIqLiYw2sU09Wbo35TWROGkRZ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -57,7 +58,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.remoteExternalTools" />
+    <property name="settings.editor.selected.configurable" value="copyright" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -78,7 +79,9 @@
       <updated>1606054820428</updated>
       <workItem from="1606054821487" duration="13295000" />
       <workItem from="1606075171710" duration="282000" />
-      <workItem from="1606075506294" duration="3497000" />
+      <workItem from="1606075506294" duration="7961000" />
+      <workItem from="1606087666374" duration="419000" />
+      <workItem from="1606088853237" duration="263000" />
     </task>
     <servers />
   </component>
@@ -110,22 +113,30 @@
       <screen x="0" y="27" width="3286" height="1053" />
     </state>
     <state x="2130" y="334" width="424" height="484" key="FileChooserDialogImpl/0.27.3286.1053@0.27.3286.1053" timestamp="1606079895109" />
-    <state width="1823" height="279" key="GridCell.Tab.0.bottom" timestamp="1606075106908">
-      <screen x="53" y="27" width="1867" height="1053" />
+    <state width="1823" height="279" key="GridCell.Tab.0.bottom" timestamp="1606085249073">
+      <screen x="0" y="27" width="3286" height="1053" />
     </state>
+    <state width="1823" height="279" key="GridCell.Tab.0.bottom/0.27.3286.1053@0.27.3286.1053" timestamp="1606085249073" />
     <state width="1823" height="279" key="GridCell.Tab.0.bottom/53.27.1867.1053@53.27.1867.1053" timestamp="1606075106908" />
-    <state width="1823" height="279" key="GridCell.Tab.0.center" timestamp="1606075106906">
-      <screen x="53" y="27" width="1867" height="1053" />
+    <state width="1823" height="279" key="GridCell.Tab.0.center" timestamp="1606085249072">
+      <screen x="0" y="27" width="3286" height="1053" />
     </state>
+    <state width="1823" height="279" key="GridCell.Tab.0.center/0.27.3286.1053@0.27.3286.1053" timestamp="1606085249072" />
     <state width="1823" height="279" key="GridCell.Tab.0.center/53.27.1867.1053@53.27.1867.1053" timestamp="1606075106906" />
-    <state width="1823" height="279" key="GridCell.Tab.0.left" timestamp="1606075106906">
-      <screen x="53" y="27" width="1867" height="1053" />
+    <state width="1823" height="279" key="GridCell.Tab.0.left" timestamp="1606085249072">
+      <screen x="0" y="27" width="3286" height="1053" />
     </state>
+    <state width="1823" height="279" key="GridCell.Tab.0.left/0.27.3286.1053@0.27.3286.1053" timestamp="1606085249072" />
     <state width="1823" height="279" key="GridCell.Tab.0.left/53.27.1867.1053@53.27.1867.1053" timestamp="1606075106906" />
-    <state width="1823" height="279" key="GridCell.Tab.0.right" timestamp="1606075106907">
-      <screen x="53" y="27" width="1867" height="1053" />
+    <state width="1823" height="279" key="GridCell.Tab.0.right" timestamp="1606085249072">
+      <screen x="0" y="27" width="3286" height="1053" />
     </state>
+    <state width="1823" height="279" key="GridCell.Tab.0.right/0.27.3286.1053@0.27.3286.1053" timestamp="1606085249072" />
     <state width="1823" height="279" key="GridCell.Tab.0.right/53.27.1867.1053@53.27.1867.1053" timestamp="1606075106907" />
+    <state x="1849" y="187" key="SettingsEditor" timestamp="1606081263632">
+      <screen x="0" y="27" width="3286" height="1053" />
+    </state>
+    <state x="1849" y="187" key="SettingsEditor/0.27.3286.1053@0.27.3286.1053" timestamp="1606081263632" />
     <state x="711" y="407" width="540" height="290" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1606070390908">
       <screen x="53" y="27" width="1867" height="1053" />
     </state>

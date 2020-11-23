@@ -9,7 +9,7 @@ Criar um layout no blade.php usando o tailwindcss
 # Sobre o código
  * Laravel 8
  * nginx:1.17.10-alpine
- * php:7.4-fpm
+ * php:7.4-fpmif
  * redis:alpine
  * phpmyadmin:latest
  * Mysql 8.0
@@ -164,8 +164,10 @@ php artisan key:generate
 ```
 
 # Problema permission denied storage
+Se aparecer essa mensagem
+ - The stream or file "/var/www/storage/logs/laravel.log" could not be opened in append mode: failed to open stream: Permission denied
 
-Se tiver problemas com storage é a questão de permissão. Pode utilizar esse comando no terminal
+Pode utilizar esse comando no terminal
 
 ```
 docker exec app chmod -R 777 /var/www/storage

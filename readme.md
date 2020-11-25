@@ -8,7 +8,7 @@ Criar um layout no blade.php usando o tailwindcss
 
 # Sobre o código
  * Laravel 8
- * nginx:1.17.10-alpine
+ * [nginx:1.17.10-alpine](https://nginx.org/en/CHANGES)
  * php:7.4-fpmif
  * redis:alpine
  * phpmyadmin:latest

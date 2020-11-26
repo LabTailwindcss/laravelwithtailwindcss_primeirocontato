@@ -9,10 +9,10 @@ Criar um layout no blade.php usando o tailwindcss
 # Sobre o código
  * Laravel 8
  * [nginx:1.17.10-alpine](https://nginx.org/en/CHANGES)
- * php:7.4-fpmif
- * redis:alpine
- * phpmyadmin:latest
- * Mysql 8.0
+ * [php:7.4-fpm](https://hub.docker.com/_/php)
+ * [redis:alpine](https://hub.docker.com/_/redis)
+ * [phpmyadmin:latest](https://hub.docker.com/_/phpmyadmin)
+ * [Mysql 8.0](https://hub.docker.com/_/mysql)
  * [Node 14 LTS](https://github.com/nodesource/distributions#debmanual)
  * [TailwindCSS](https://github.com/tailwindlabs/tailwindcss-setup-examples/tree/master/examples/laravel-postcss-only)
 

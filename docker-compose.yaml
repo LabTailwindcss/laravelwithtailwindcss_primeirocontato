@@ -43,7 +43,7 @@ services:
 
   #REDIS Service
   redis:
-    image: redis:alpine
+    image: redis:latest
     expose:
       - 6379
     restart: always

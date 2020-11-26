@@ -8,7 +8,12 @@
     <title>@yield('title')</title>
 </head>
 <body>
-
+<!--
+    Corrigir bugs
+         Reponsividade da página inicial
+         border auto focus dos formulário
+         Botão voltar e cadastrar na página cadastro
+-->
     @yield('content')
 
 </body>

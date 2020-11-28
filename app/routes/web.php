@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/cadastro', function () {
     return view('frontend.cadastro');
 });
+
+Route::get('/inscritos', function () {
+    return view('frontend.inscritos');
+});

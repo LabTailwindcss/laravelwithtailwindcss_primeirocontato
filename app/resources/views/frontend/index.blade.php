@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title','Login')
+@section('title','Newsletter')
 
 @section('content')
     <div class="">
@@ -14,9 +14,11 @@
         <p class="font-semibold">Acompanhe todas as novidades da tecnologia</p>
     </div>
     <div class="pt-10 ml-32">
-    <a href="{{ URL::to('/cadastro')}}">
+        <a href="{{ URL::to('/cadastro')}}">
             <button class="bg-blue-500 w-48 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Registrar</button>
         </a>
-        <button class="bg-gray-500 w-48 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-full">Entrar</button>
+        <a href="{{ URL::to('/inscritos')}}">
+            <button class="bg-gray-500 w-48 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-full">Inscritos</button>
+        </a>
     </div>
 @endsection

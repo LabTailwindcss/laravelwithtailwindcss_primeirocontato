@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use Laravel\Fortify\Fortify;
+use App\Http\Controllers\InscritosController;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,7 +24,9 @@ Route::get('/cadastro', function () {
     return view('frontend.cadastro');
 });
 
-
-Route::get('/inscritos', function () {
-    return view('frontend.inscritos')->name('frontend.inscritos');
+Route::get('/login', function(){
+    return view('frontend.login');
 });
+
+
+Route::get('/inscritos', [InscritosController::class, 'index']);

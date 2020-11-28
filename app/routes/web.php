@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Laravel\Fortify\Fortify;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,10 +18,12 @@ Route::get('/', function () {
     return view('frontend.index');
 });
 
+
 Route::get('/cadastro', function () {
     return view('frontend.cadastro');
 });
 
+
 Route::get('/inscritos', function () {
-    return view('frontend.inscritos');
+    return view('frontend.inscritos')->name('frontend.inscritos');
 });

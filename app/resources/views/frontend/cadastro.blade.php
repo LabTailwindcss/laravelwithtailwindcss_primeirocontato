@@ -9,36 +9,42 @@
  <div class="relative grid grid-cols-4">
      <div class="col-start-2 col-span-2 mt-24">
         <div class="bg-white shadow-md rounded flex flex-col my-2 px-8 pt-6 pb-8 mb-4">
+            <form  method="POST" action="{{route('register')}}">
+                @csrf
             <div class="-mx-3 md:flex mb-6">
                 <div class="md:w-1/2 px-3 mb-6 md:mb-0">
-                    <label for="Name">Nome</label>
-                    <input type="text" class="appearance-none block w-full bg-gray-100 text-gray-500 border rounded py-3 px-4 mb-3" placeholder="Digite o seu nome">
+                    <label for="name" class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">Nome</label>
+                    <input type="text" name="name" class="appearance-none block w-full bg-gray-200 text-gray-500 border rounded py-3 px-4 mb-3" placeholder="Digite o seu nome">
                 </div>
                 <div class="md:w-1/2 px-3 mb-6 md:mb-0">
-                    <label class"" for="">Sobrenome</label>
-                    <input type="text" class="appearance-none block w-full bg-gray-100 text-gray-500 border rounded py-3 px-4 mb-3" placeholder="Digite o seu sobrenome">
+                    <label for="firstname" class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" >Sobrenome</label>
+                    <input type="text" name="firstname" class="appearance-none block w-full bg-gray-200 text-gray-500 border rounded py-3 px-4 mb-3" placeholder="Digite o seu sobrenome">
                 </div>
             </div>
             <div class="-mx-3 md:flex mb-6">
                 <div class="md:w-full px-3 mb-6 mb:mb-0">
-                    <label class="" for="">Email</label>
-                    <input type="text" class="appearance-none block w-full bg-gray-100 text-gray-500 border rounded py-3 px-4 mb-3" placeholder="Digite o seu e-mail">
+                    <label for="email" class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" >Email</label>
+                    <input type="email" name="email" class="appearance-none block w-full bg-gray-200 text-gray-500 border rounded py-3 px-4 mb-3" placeholder="Digite o seu e-mail" required>
                 </div>
             </div>
             <div class="-mx-3 md:flex mb-6">
                 <div class="md:w-1/2 px-3 mb-6 md:mb-0">
-                    <label class="" for="">Data de Nascimento</label>
-                    <input type="text" class="appearance-none block w-full bg-gray-100 text-gray-500 border rounded py-3 px-4 mb-3" placeholder="dd/mm/yyyy">
+                    <label for="birthday" class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" >Data de Nascimento</label>
+                    <input type="text" name="birthday" class="appearance-none block w-full bg-gray-200 text-gray-500 border rounded py-3 px-4 mb-3" placeholder="dd/mm/yyyy">
                 </div>
                 <div class="md:w-1/2 px-3 mb-6 md:mb-0">
-                    <label class="" for="">Telefone</label>
-                    <input type="text" class="appearance-none block w-full bg-gray-100 text-gray-500 border rounded py-3 px-4 mb-3" placeholder="(xx) x-xxxx-xxxx">
+                    <label for="phone" class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">Telefone</label>
+                    <input type="text" name="phone" class="appearance-none block w-full bg-gray-200 text-gray-500 border rounded py-3 px-4 mb-3" placeholder="(xx) x-xxxx-xxxx">
                 </div>
                 <div class="md:w-1/2 px-3 mb-6 md:mb-0">
-                    <label class="">Endereço</label>
-                    <input type="text" class="appearance-none block w-full bg-gray-100 text-gray-500 border rounded py-3 px-4 mb-3" placeholder="Digite o seu endereço">
+                    <label for="city" class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">Cidade</label>
+                    <input type="text" name="city" class="appearance-none block w-full bg-gray-200 text-gray-500 border rounded py-3 px-4 mb-3" placeholder="Digite a sua cidade">
                 </div>
             </div>
+            <div class="pt-5">
+                <button type="submit" class="bg-blue-500 w-full hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Cadastrar</button>
+            </div>
+        </form>
         </div>
     </div>
 </div>

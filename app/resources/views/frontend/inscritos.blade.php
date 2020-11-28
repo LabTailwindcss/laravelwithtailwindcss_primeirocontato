@@ -2,9 +2,10 @@
 @section('title','Lista de inscritos')
 
 @section('content')
+<div class="bg-gradient-to-b from-blue-400 to-blue-200 h-screen">
 
 <div class="fixed grid grid-cols-1">
-    <img src="{{asset('assets/img/background-register.png')}}" alt="background-page" class="">
+    <!-- <img src="{{asset('assets/img/background-register.png')}}" alt="background-page" class=""> -->
 </div>
     <div class="relative grid">
         <div class="mt-5 ml-5 mr-5">
@@ -15,6 +16,7 @@
                         <tr class="text-left">
                             <th class="border px-4 py-2">Nome</th>
                             <th class="border px-4 py-2">E-mail</th>
+                            <th class="border px-4 py-2">Cidade</th>
                             <th class="border px-4 py-2">Data Nascimento</th>
                             <th class="border px-4 py-2">Telefone</th>
                             <th class="border px-4 py-2">Status</th>
@@ -24,13 +26,16 @@
                         <tr>
                             <td class="border px-4 py-2">Paul Victor</td>
                             <td class="border px-4 py-2">pvictor@gmail.com</td>
+                            <td class="border px-4 py-2">Fortaleza</td>
                             <td class="border px-4 py-2">14/11/1984</td>
                             <td class="border px-5 py-2">(88) 97541325 </td>
                             <td class="border px-5 py-2"> Ativo </td>
                         </tr>
+
                     </tbody>
                 </table>
             </div>
         </div>
     </div>
+</div>
 @endsection
